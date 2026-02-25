@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#g)"/>
+  <g stroke="white" stroke-width="48" fill="none" stroke-linecap="round" stroke-linejoin="round">
+     <!-- 向下突（U型/笑脸） -->
+     <path d="M96 192 C 160 352, 352 352, 416 192" />
+     <!-- 两个端点 -->
+     <circle cx="96" cy="192" r="32" fill="white" stroke="none"/>
+     <circle cx="416" cy="192" r="32" fill="white" stroke="none"/>
+  </g>
+</svg>
